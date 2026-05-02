@@ -9,7 +9,7 @@ from PIL import Image
 from torch.utils.data import DataLoader, WeightedRandomSampler
 from diffusers import AutoencoderKL, UNet2DConditionModel, DDPMScheduler, DDIMScheduler
 
-from PlantVillage.dataset_plantvillage import PlantVillageDataset
+from PlantVillage.dataset import PlantVillageDataset
 from PlantVillage.metadata_conditioning import MetadataConditionEncoder, plantvillage_field_configs
 from ...lora_utils import LoRALinear, apply_lora_to_unet, inject_metadata_into_attention
 

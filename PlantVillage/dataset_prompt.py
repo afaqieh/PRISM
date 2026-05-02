@@ -6,7 +6,7 @@ from torch.utils.data import Dataset
 import torchvision.transforms as T
 from diffusers import AutoencoderKL, DDPMScheduler
 from PlantVillage.PromptBuilder_plantvillage import create_prompt_plantvillage
-from PlantVillage.PromptBuilder_bioclip_plantvillage import create_prompt_bioclip_plantvillage
+from PlantVillage.BioCLIP.PromptBuilder_bioclip import create_prompt_bioclip_plantvillage
 
 
 class PlantVillageDatasetPrompt(Dataset):

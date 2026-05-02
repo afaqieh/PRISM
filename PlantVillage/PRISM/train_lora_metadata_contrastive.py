@@ -14,7 +14,7 @@ from diffusers import AutoencoderKL, UNet2DConditionModel, DDPMScheduler, DDIMSc
 from ...lora_utils import LoRALinear, inject_metadata_into_attention, apply_lora_to_unet
 import timm
 
-from PlantVillage.dataset_plantvillage import PlantVillageDataset
+from PlantVillage.dataset import PlantVillageDataset
 from PlantVillage.metadata_conditioning import MetadataConditionEncoder
 
 MODEL_NAME   = "runwayml/stable-diffusion-v1-5"

@@ -8,7 +8,7 @@ from PIL import Image
 from diffusers import AutoencoderKL, UNet2DConditionModel, DDPMScheduler, DDIMScheduler
 from torch.utils.data import DataLoader, WeightedRandomSampler
 from PlantVillage.dataset_prompt import PlantVillageDatasetPrompt
-from PlantVillage.PromptBuilder_bioclip_plantvillage import create_prompt_bioclip_plantvillage
+from PlantVillage.BioCLIP.PromptBuilder_bioclip import create_prompt_bioclip_plantvillage
 from ...lora_utils import LoRALinear, apply_lora_to_unet
 
 try:
