@@ -7,7 +7,7 @@ Official implementation of PRISM, a tabular-to-image generation framework that r
 ## Setup
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/afaqieh/PRISM
 cd PRISM
 conda env create -f environment.yml
 conda activate prism
