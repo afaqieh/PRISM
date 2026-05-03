@@ -7,7 +7,7 @@ from tqdm import tqdm
 from metadata_conditioning import MetadataConditionEncoder
 from diffusers import AutoencoderKL, UNet2DConditionModel, DDIMScheduler
 from PIL import Image
-from ..lora_utils import LoRALinear, inject_metadata_into_attention
+from ...lora_utils import LoRALinear, inject_metadata_into_attention
 
 MODEL_NAME = "runwayml/stable-diffusion-v1-5"
 CSV_PATH   = "./data/HAM10000_metadata_train.csv"
